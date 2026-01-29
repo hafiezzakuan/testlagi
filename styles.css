@@ -1,0 +1,56 @@
+/* Styling the Header */ 
+.header-section { 
+display: flex;
+/* The Magic Line*/
+justify-content: space-between; /* Pushes item to opposite ends*/
+align-items: center;
+padding: 10px 10%;
+background-color: #b18e41;
+color: rgb(163, 172, 69);
+}nav { 
+  display: flex; 
+  align-items: center; 
+} 
+ 
+nav a { 
+  color: white; 
+  text-decoration: none; 
+  margin: 0 15px; 
+  padding: 5px 10px; 
+  border-radius: 5px; 
+transition: background-color 0.3s; 
+} 
+nav a:hover { 
+background-color: #555; 
+} 
+nav a.active { 
+background-color: #555; 
+} 
+
+.cta-button { 
+background-color: #ff6b81; 
+color: white; 
+padding: 8px 15px; 
+border-radius: 5px; 
+text-decoration: none; 
+transition: background-color 0.3s; 
+} 
+.cta-button:hover { 
+background-color: #ff4757; 
+}
+
+
+/* Styling the Main Content */ 
+.main-content { 
+background-color: #3bb858; 
+padding: 50px; 
+min-height: 200px; /* Gives the middle section some height */ 
+} 
+/* Styling the Footer */ 
+.footer-section { 
+background-color: #468fa2; 
+color: #ffffff; 
+padding: 10px; 
+text-align: center; 
+font-size: 12px; 
+}
